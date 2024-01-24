@@ -1,0 +1,45 @@
+html {
+    background: #172419;
+    background-image: url(../Imagens/fundo_slytherin.jpg);
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+body {
+    background-color: white;
+    display: block;
+    margin: 10px 250px 5px 250px;
+}            
+
+h1 {
+    color: #314312;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: #314312;
+    text-align: center;
+    font-size: 30px;
+}
+p {
+    color: black;
+    text-align: center;
+}
+            
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+ol li {
+    color: #819939;
+}
+
+a {
+    color: #c1d750;
+}
+a:hover {
+    color: #314312;
+}

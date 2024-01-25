@@ -1,45 +1,75 @@
+@font-face {
+    font-family: "Potter";
+    src: url("Fontes/HARRYP__.TTF") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Play";
+    src: url("Fontes/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+}
+
 html {
     background: #172419;
     background-image: url(../Imagens/fundo_slytherin.jpg);
-    margin-top: 7%;
-    margin-bottom: 2%;
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: "Play", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
-    background-color: white;
-    display: block;
-    margin: 10px 250px 5px 250px;
+    background: white;
+    width: 694px;
+    max-width: 650px;
+    margin-top: 160px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    text-align: center;
 }            
 
 h1 {
     color: #314312;
-    text-align: center;
-    font-size: 40px;
+    font-size: 80px;
+    font-family: "Potter", Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 h2 {
     color: #314312;
-    text-align: center;
-    font-size: 30px;
+    font-size: 60px;
+    font-family: "Potter", Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
+
 p {
     color: black;
-    text-align: center;
 }
             
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    margin-top: -125px;
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    object-fit: cover;
+    border: 10px #172419 solid;
 }
-ol li {
+li {
     color: #819939;
+    font-size: 18px;
 }
+
+ol, ul {
+    text-align: left;
+} 
 
 a {
     color: #c1d750;
 }
+
 a:hover {
     color: #314312;
 }

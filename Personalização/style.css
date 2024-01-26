@@ -23,6 +23,7 @@ html {
 
 body {
     background: white;
+    border: 5px #172419 solid;
     width: 694px;
     max-width: 650px;
     margin-top: 160px;
@@ -32,17 +33,19 @@ body {
 }            
 
 h1 {
-    color: #314312;
+    color: #071A0A;
     font-size: 80px;
     font-family: "Potter", Arial, Helvetica, sans-serif;
     font-weight: normal;
+    
 }
 
 h2 {
-    color: #314312;
-    font-size: 60px;
+    color: #819939;
+    font-size: 45px;
     font-family: "Potter", Arial, Helvetica, sans-serif;
     font-weight: normal;
+    background-color: #071A0A;
 }
 
 p {
@@ -55,7 +58,7 @@ img {
     height: 200px;
     border-radius: 110px;
     object-fit: cover;
-    border: 10px #172419 solid;
+    border: 8px #172419 solid;
 }
 li {
     color: #819939;
@@ -67,9 +70,9 @@ ol, ul {
 } 
 
 a {
-    color: #c1d750;
+    color: #819939;
 }
 
 a:hover {
-    color: #314312;
+    color: #c1d750;
 }

@@ -45,7 +45,13 @@ h2 {
     font-size: 45px;
     font-family: "Potter", Arial, Helvetica, sans-serif;
     font-weight: normal;
-    background-color: #071A0A;
+    background-color: #003400;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
